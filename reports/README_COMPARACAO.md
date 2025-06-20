@@ -62,7 +62,7 @@ Para cada algoritmo, são calculadas as seguintes métricas:
 
 ```bash
 # Executar comparação de algoritmos
-python comparacao_algoritmos.py
+python src/comparacao_algoritmos.py
 ```
 
 ## 📈 Resultados Esperados
@@ -188,7 +188,7 @@ class ComparacaoAlgoritmos:
 
 Se encontrar problemas:
 
-1. **Verificar ambiente**: Execute `teste_basico.py` primeiro
+1. **Verificar ambiente**: Execute `src/teste_basico.py` primeiro
 2. **Dependências**: Certifique-se de que todas estão instaladas
 3. **Conexão**: Verifique sua conexão com a internet
 4. **Logs**: Verifique as mensagens de output
@@ -202,4 +202,4 @@ Se encontrar problemas:
 
 ---
 
-**🎉 Script pronto para execução! Execute `python comparacao_algoritmos.py` para começar a análise.** 
+**🎉 Script pronto para execução! Execute `python src/comparacao_algoritmos.py` para começar a análise.**
