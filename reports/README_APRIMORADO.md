@@ -50,15 +50,15 @@ Este projeto implementa uma análise completa de classificação de grãos com *
 ## 📋 Estrutura do Projeto
 
 ```
-├── analise_graos.py                    # Script original
-├── analise_graos_aprimorada.py         # Script com todas as melhorias
-├── analise_graos_notebook.ipynb        # Notebook Jupyter completo
-├── teste_basico.py                     # Script de teste das bibliotecas
+├── src/analise_graos.py                    # Script original
+├── src/analise_graos_aprimorada.py         # Script com todas as melhorias
+├── src/analise_graos_notebook.ipynb        # Notebook Jupyter completo
+├── src/teste_basico.py                     # Script de teste das bibliotecas
 ├── requirements.txt                    # Dependências do projeto
-├── seeds_dataset.md                   # Descrição do dataset
+├── reports/seeds_dataset.md                   # Descrição do dataset
 ├── README.md                          # README original
-├── README_APRIMORADO.md               # Este arquivo
-└── output_graficos/                   # Diretório com gráficos gerados
+├── reports/README_APRIMORADO.md               # Este arquivo
+└── src/output_graficos/                   # Diretório com gráficos gerados
     ├── distribuicao_classes_features.png
     ├── matriz_correlacao.png
     ├── boxplots_features.png
@@ -105,28 +105,28 @@ Desenvolver um modelo de machine learning capaz de classificar sementes de trigo
 
 ```bash
 # Executar teste básico para verificar se tudo está funcionando
-python teste_basico.py
+python src/teste_basico.py
 ```
 
 ### 3. Análise Original
 
 ```bash
 # Executar análise original
-python analise_graos.py
+python src/analise_graos.py
 ```
 
 ### 4. Análise Aprimorada (Recomendado)
 
 ```bash
 # Executar análise com todas as melhorias
-python analise_graos_aprimorada.py
+python src/analise_graos_aprimorada.py
 ```
 
 ### 5. Notebook Jupyter
 
 ```bash
 # Abrir o notebook no Jupyter
-jupyter notebook analise_graos_notebook.ipynb
+jupyter notebook src/analise_graos_notebook.ipynb
 ```
 
 ## 📈 Metodologia CRISP-DM Aprimorada
@@ -239,7 +239,7 @@ A análise aprimorada irá gerar:
 
 Se encontrar problemas:
 
-1. **Verificar ambiente**: Execute `teste_basico.py` primeiro
+1. **Verificar ambiente**: Execute `src/teste_basico.py` primeiro
 2. **Dependências**: Certifique-se de que todas estão instaladas
 3. **Conexão**: Verifique sua conexão com a internet (para carregar o dataset)
 4. **Logs**: Verifique as mensagens de log para identificar problemas
